@@ -1,5 +1,4 @@
 
-
 .listen-btn
 {
     border: 3px solid black;
@@ -109,7 +108,7 @@
     background-image: url('images/bg2x.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 20vh;
+    padding-top: 16vw;
 }
 
 .newsblock
@@ -453,6 +452,11 @@
     }
 }
 
+
+
+
+
+
 input[type="checkbox"]
 {
     display: none;
@@ -612,11 +616,15 @@ background-color: #f4f4f4;
         float: none;
         text-align: center;
     }
+@media (min-width: 768px)
+{
     .navbar-nav li
     {
         float: none;
         display: inline-block;
     }
+}
+
 }
 
 .logo-ghetollize:hover
@@ -658,4 +666,3 @@ background-color: #f4f4f4;
     color: #ada7a7;
     margin-right: 10px;
 }
-
