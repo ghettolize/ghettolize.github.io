@@ -759,7 +759,7 @@ background-color: #f4f4f4;
     }
 }
 
-@media(max-рушпре:425px){
+@media(max-height:425px){
  .hero1{
      height:auto;
     }
