@@ -26,7 +26,7 @@
 
 .ghet-h
 {
-    border: solid white 5px;
+    
     padding: 20px;
     display: inline;
     color: #ffffff;
@@ -667,8 +667,13 @@ background-color: #f4f4f4;
    color: #fff;
   text-align: center;
   font-size: 12vmin;
-  max-width: 1200px;
+  max-width: 625px;
   margin: 0 auto;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  border:solid white 5px;
+  overflow:hidden;
 }
 .brasil::before,
 .brasil::after {
