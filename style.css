@@ -752,3 +752,15 @@ background-color: #f4f4f4;
 }
 
 /* Animation logo END */
+
+@media(max-width:768px){
+ .sounds-pr{
+     margin-top:20px;
+    }
+}
+
+@media(max-рушпре:425px){
+ .hero1{
+     height:auto;
+    }
+}
