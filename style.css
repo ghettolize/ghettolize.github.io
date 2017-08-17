@@ -110,6 +110,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 20vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 
 .newsblock
