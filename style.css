@@ -770,3 +770,9 @@ background-color: #f4f4f4;
      padding-top:15px;
     }
 }
+
+
+.logo-footer{
+ position: relative;
+    display: table;   
+}
