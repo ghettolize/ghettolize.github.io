@@ -637,13 +637,13 @@ background-color: #f4f4f4;
 
 .footerghetollize
 {
-    height: 320px;
     background: #000000;
 }
 
 .footer-cont-block
 {
-    padding-top: 110px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .footer-text
