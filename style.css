@@ -774,5 +774,8 @@ background-color: #f4f4f4;
 
 .logo-footer{
  position: relative;
-    display: table;   
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
