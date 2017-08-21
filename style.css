@@ -840,10 +840,41 @@ background-color: #f4f4f4;
 	
 
 
-#mc_embed_signup
+.mc-field-group { 
+display: inline-block; 
+}
 
-#mc_embed_signup_scroll
+#mc_embed_signup input.email {
 
-.email
 
-#mc-embedded-subscribe
+
+border: none;  
+color: #343434; 
+height:48px; 
+padding: 0px 0.4em; 
+width:300px; 
+vertical-align:top;
+
+}
+
+
+#mc_embed_signup .clear {
+
+display: inline-block;
+
+}
+
+#mc_embed_signup .button {
+
+font-size: 13px; 
+border: none; 
+letter-spacing: .03em; 
+color: #000000;
+line-height:32px; 
+padding:0 18px; 
+margin-left: -5px; 
+transition: all 0.23s ease-in-out 0s;
+height:48px;
+background-color:#fff;
+
+}
