@@ -59,6 +59,8 @@
 }
 .moreshop{
     float:right;
+    padding-top:20px;
+    color:black;
 }
 
 .block-shop-more{
@@ -812,3 +814,17 @@ background-color: #f4f4f4;
 .ru-en a{
   color:#fff;
 }
+
+.text-more{
+ float:left;
+ margin-right:10px;
+    
+}
+
+.text-more{
+  float:left;
+  margin-right:10px;
+  margin-top:5px;   
+}
+
+
