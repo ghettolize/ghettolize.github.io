@@ -55,6 +55,14 @@
     font-weight: 700;
     font-size: 4vh;
     line-height: 35px;
+    float:left;
+}
+.moreshop{
+    float:right;
+}
+
+.block-shop-more{
+ height:50px;   
 }
 
 .release-txt
