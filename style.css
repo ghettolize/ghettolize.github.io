@@ -76,6 +76,9 @@
     letter-spacing: 1px;
     line-height: 22px;
     border: 3px solid black;
+    margin-top: 50px;
+    display: block;
+    text-align: center;
 }
 
 .demo-btn:hover
