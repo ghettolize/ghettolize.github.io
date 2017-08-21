@@ -444,16 +444,8 @@ margin: 40px auto 60px;
 
 .btn-send-demo
 {
-    width: 160px;
-    padding: 12px 20px;
-    background-color: #000;
-    border: solid 3px #000;
-    color: #fff;
-    display: block;
-    text-align: center;
-    font-size: 12px;
-    margin-top: 32px;
-}
+    font-size: 20px;
+   }
 
 .btn-send-demo:hover
 {
