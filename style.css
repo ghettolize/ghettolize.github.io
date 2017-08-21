@@ -67,7 +67,6 @@
 .demo-btn
 {
     width: 160px;
-    margin: 40px auto 60px;
     padding: 12px 20px;
     background-color: #000;
     color: #fff;
@@ -79,6 +78,13 @@
     margin-top: 50px;
     display: block;
     text-align: center;
+}
+
+@media(max-width:425px){
+.demo-btn{
+margin: 40px auto 60px;
+    }
+    
 }
 
 .demo-btn:hover
