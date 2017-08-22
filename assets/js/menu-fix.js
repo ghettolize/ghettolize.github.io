@@ -78,4 +78,9 @@ type="text/javascript">jQuery(document).ready(function($){
 $('.menu-item').click(function(event){
 $('.cross').toggleClass('cross-1');
 });
+  
+type="text/javascript">jQuery(document).ready(function($){
+$('.menu-item').click(function(event){
+$('.collapse').toggleClass('in');
+});
 });
