@@ -28,3 +28,29 @@ var StickyElement = function(node){
 };
 
 var demo = new StickyElement($('#sticky'));
+
+// Animation hamburger
+
+type="text/javascript">jQuery(document).ready(function($){
+$('.butnhumburger').click(function(event){
+$('.line-1').toggleClass('.line-1-1');
+});
+});
+
+type="text/javascript">jQuery(document).ready(function($){
+$('.butnhumburger').click(function(event){
+$('.line-2').toggleClass('.line-2-2');
+});
+});
+
+type="text/javascript">jQuery(document).ready(function($){
+$('.butnhumburger').click(function(event){
+$('.line-3').toggleClass('.line-3-3');
+});
+});
+
+type="text/javascript">jQuery(document).ready(function($){
+$('.butnhumburger').click(function(event){
+$('.cross').toggleClass('.cross-1');
+});
+});
