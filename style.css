@@ -724,11 +724,11 @@ background-color: #f4f4f4;
 }
 .line__wrap span:nth-of-type(3){ 
   width: 0%; height: 2px; bottom: 0; right: 0; 
-  animation: lineWidth 2s 1.5s ease-in-out both paused;
+  animation: lineWidth 2.2s 1.5s ease-in-out both paused;
 }
 .line__wrap span:nth-of-type(4){ 
   width: 2px; height: 0%; bottom: 0; left: 0;
-  animation: lineHeight 2s 3s ease-in-out both paused;
+  animation: lineHeight 2.3s 3s ease-in-out both paused;
 }
 
 @-webkit-keyframes lineWidth { to { width: 100%; } }
