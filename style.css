@@ -692,7 +692,7 @@ background-color: #f4f4f4;
 .brasil {
   font-family: arial;
   position: relative;
-   color: #fff;
+  color: #fff;
   text-align: center;
   font-size: 12vmin;
   max-width: 625px;
@@ -740,7 +740,7 @@ background-color: #f4f4f4;
      @-o-keyframes lineHeight { to { height: 100%; } }   
         @keyframes lineHeight { to { height: 100%; } }
 
-.brasil:hover .line__wrap span {
+.brasil .line__wrap span {
 	-webkit-animation-play-state: running;
 	     -o-animation-play-state: running;
 	        animation-play-state: running;
