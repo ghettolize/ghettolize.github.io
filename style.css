@@ -700,9 +700,52 @@ background-color: #f4f4f4;
   display:table;
   margin-left:auto;
   margin-right:auto;
-  border:solid white 5px;
   overflow:hidden;
+  -webkit-transition: all .34s ease-in-out;
+  -o-transition: all .34s ease-in-out;
+  transition: all .34s ease-in-out;
 }
+
+.line__wrap span {
+  display: block;
+  background: #fff;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+
+.line__wrap span:nth-of-type(1){ 
+  width: 0%; height: 5px; top: 0; left: 0; 	
+  animation: lineWidth .25s ease-in-out both paused;
+}
+.line__wrap span:nth-of-type(2){ 
+  width: 5px; height: 0%; top: 0; right: 0;
+  animation: lineHeight .25s .25s ease-in-out both paused;
+}
+.line__wrap span:nth-of-type(3){ 
+  width: 0%; height: 5px; bottom: 0; right: 0; 
+  animation: lineWidth .25s .5s ease-in-out both paused;
+}
+.line__wrap span:nth-of-type(4){ 
+  width: 5px; height: 0%; bottom: 0; left: 0;
+  animation: lineHeight .25s .75s ease-in-out both paused;
+}
+
+@-webkit-keyframes lineWidth { to { width: 100%; } }
+   @-moz-keyframes lineWidth { to { width: 100%; } }
+     @-o-keyframes lineWidth { to { width: 100%; } }   
+        @keyframes lineWidth { to { width: 100%; } }
+@-webkit-keyframes lineHeight { to { height: 100%; } }
+   @-moz-keyframes lineHeight { to { height: 100%; } }
+     @-o-keyframes lineHeight { to { height: 100%; } }   
+        @keyframes lineHeight { to { height: 100%; } }
+
+.brasil:hover .line__wrap span {
+	-webkit-animation-play-state: running;
+	     -o-animation-play-state: running;
+	        animation-play-state: running;
+}
+
 .brasil::before,
 .brasil::after {
   content: attr(data-text);
