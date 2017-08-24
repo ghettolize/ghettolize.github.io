@@ -879,18 +879,23 @@ display: inline-block;
 }
 
 #mc_embed_signup input.email {
-
-
-
 border: none;  
 color: #343434; 
 height:48px; 
 padding: 0px 0.4em; 
 width:300px; 
 vertical-align:top;
-
 }
 
+@media (max-width: 425px) {
+	#mc_embed_signup input.email {
+		width: 90%;
+	}
+	
+	#mc_embed_signup .button {
+		display: none;
+	}
+}
 
 #mc_embed_signup .clear {
 
@@ -901,9 +906,9 @@ display: inline-block;
 #mc_embed_signup .button {
 
 font-size: 13px; 
-border: none; 
+border: solid 3px #fff; 
 letter-spacing: .03em; 
-color: #000000;
+color: #000;
 line-height:32px; 
 padding:0 18px; 
 margin-left: -5px; 
@@ -911,4 +916,10 @@ transition: all 0.23s ease-in-out 0s;
 height:48px;
 background-color:#fff;
 
+}
+
+#mc_embed_signup .button:hover {
+	background: #000;
+	color: #fff;
+	transition: .5s;
 }
